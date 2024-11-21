@@ -1,9 +1,8 @@
 
 import type { Metadata } from "next";
 import {EB_Garamond} from 'next/font/google'
-import localFont from "next/font/local";
 import "./globals.css";
-import Providers, { ThemeProvider } from "./provider";
+import Providers from "./provider";
 
 const eb_garamond = EB_Garamond({
   subsets: ['latin'],

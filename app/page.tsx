@@ -1,5 +1,3 @@
-import { div } from "framer-motion/client";
-import Image from "next/image";
 import HomePage from "@/components/Home";
 import { IconBrandGithub, IconBrandX, IconExchange, IconHome, IconNewSection, IconTerminal2 } from "@tabler/icons-react";
 import { FloatingDock } from "../components/ui/floating-dock";
