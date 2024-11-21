@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import { FlipWords } from './ui/flip-words';
@@ -58,8 +59,8 @@ const HomePage = () => {
 
 
       <div className='h-screen w-1/4 bg-white-400 relative z-0 flex flex-col gap-10 items-center justify-center px-6 text-white'>
-        <p className='font-bold'> I'm Mujeeb, a software engineer, I blend innovation and strategy to craft robust systems that foster growth.</p>
-        <p className='font-bold'>I'm passionate about crafting scalable solutions that not only meet today’s challenges but also pave the way for tomorrow’s innovations.
+        <p className='font-bold'> I&apos;m Mujeeb, a software engineer, I blend innovation and strategy to craft robust systems that foster growth.</p>
+        <p className='font-bold'>I&apos;m passionate about crafting scalable solutions that not only meet today’s challenges but also pave the way for tomorrow’s innovations.
         </p>
         <p className='font-normal text-xs leading-5'>  With a blend of creativity and technical expertise, I transform ideas into dynamic systems that drive growth and efficiency.
           Join me in building a future where your vision can truly thrive!</p>
